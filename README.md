@@ -10,10 +10,10 @@ The carousel allowed me to use useState to create two different states for the m
 ### Navbar
 The navbar was also a very important component in for this project. 
     1. Pretty much every website has one.
-    2. It was also a gooc component to the React Router
+    2. It was also a good component to use the React Router and useHistory hook
 
 ### Moviecard
-The movie card was chosen because of the props that it can take such as thumbnails, genres, and names.
+The movie card was chosen because of the props that it can take such as thumbnails, genres, and names and because it was a good component to use the useState hook with.
 
 ### Showcase and accordions
 The showcase and accorion components were chosen because I wanted to apply ternaries, by giving these components two different states and I wanted to simulate getting data from a database by creating label objects.
