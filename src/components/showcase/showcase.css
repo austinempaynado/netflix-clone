@@ -1,0 +1,22 @@
+.showcase-container{
+    border-top: 8px solid #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#showcase-content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    color: white;
+}
+
+#showcase-label{
+    color: white;
+}
+
+#flipped{
+    flex-direction: row-reverse;
+}
