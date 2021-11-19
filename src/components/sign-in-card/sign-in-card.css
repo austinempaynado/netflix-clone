@@ -1,0 +1,85 @@
+#sign-in-container{
+    width: 100%;
+    height: 700px;
+    box-shadow: inset 0 0 100px black;
+    background-color: rgba(0,0,0,.6); /* Tint color */
+    background-blend-mode: multiply;
+}
+
+#sign-in-bar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#sign-in-buttons{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Middle caption styles */
+#middle-captions{
+    margin-top: 8rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 6rem;
+}
+
+#login-heading{
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+#login-subheading{
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 0.6rem;
+}
+#login-caption{
+    margin: 1rem 0 1rem 0;
+}
+
+#input-container{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+#email-input{
+    height: 3.4rem;
+    padding: 0 12rem 0 1rem;
+    margin: 0;
+    border: none;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+#get-started-button{
+    display: flex;
+    align-items: center;
+    height: 3.4rem;
+    padding: 0 1.4rem 0 2rem;
+    font-size: 1.4rem;
+    border: none;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#get-started-chevron{
+    margin-left: 1rem;
+}
+
+#get-started-button:hover{
+    background-color: lightcoral;
+}
+
+
+/* Login page card styles*/
