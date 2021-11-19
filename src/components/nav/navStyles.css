@@ -1,0 +1,58 @@
+.nav-bar {
+  display: flex;
+  position: fixed;
+  z-index: 20000;
+  width: 100%;
+  background-color: black;
+}
+
+.nav-list {
+  display: flex;
+  align-content: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  display: flex;
+  align-content: center;
+  margin-right: 1rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+.nav-bar a:hover {
+  color: grey;
+}
+
+#right-nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0 auto auto;
+  padding-right: 1.2rem;
+  
+}
+
+.right-nav-item {
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  margin: auto 0.6rem auto 0;
+}
+.right-nav-item:hover {
+  color: grey;
+}
+
+#logo {
+  margin: 1.2rem 1rem 1.2rem 2rem;
+  width: auto;
+  height: auto;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
