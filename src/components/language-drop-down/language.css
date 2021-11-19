@@ -1,0 +1,11 @@
+#drop-down {
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  cursor: pointer;
+
+  margin: 0 1.8rem 0 0;
+  padding: 1rem 2.4rem 1rem 2.4rem;
+}
