@@ -1,0 +1,6 @@
+# Technical Design Writeup
+
+The website chosen for this assignment was Netflix. This was because Netflix has a various components to work with, such as carousels, accordions, call to actions, movie preview thumbnails. I chose the netflix browse page because this is a main feature page where users will spend most of their time if they haven't chosen anything to watch yet (which I do all the time). It also offered a variety of components to work with, such as the movie cards, carousels, the nav bar and featured movie card. I chose the login page because of this reason as well. It had the sign in container component, some showcase cards, accordions and a footer. I wanted to be able to design and code different kinds of components to apply things we've learned such as hooks and props while fulfilling the assignment requirements.
+
+## Use of Git Branches
+Unfortunately I didn't use branches since I don't usually use them for solo projects. If I were to use them I would create branches for every feature I was working on. For example, a branch for the carousel which would have the carousel component and the movie card component.
