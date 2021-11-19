@@ -1,0 +1,43 @@
+#featuredContainer {
+  position: relative;
+  background: #191919;
+}
+
+#featuredShowPhoto {
+  width: 100%;
+  opacity: 0.5;
+  height: 50rem;
+  object-fit: cover;
+  object-position: 0 10%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 90%
+  );
+}
+
+#featuredDescriptionContainer {
+  z-index: 10000;
+  position: absolute;
+  top: 40%;
+  left: 7%;
+}
+
+#Header {
+  color: white;
+  font-size: 6rem;
+  text-shadow: 0.4rem 0.4rem 2rem #000000;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#Description {
+  color: white;
+  font-size: 1.6rem;
+  text-shadow: 0.5rem 0.5rem 1rem #000000;
+  width: 70%;
+}
+
+#CTAcontainer{
+  display: flex;
+}
